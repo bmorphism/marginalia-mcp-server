@@ -2,6 +2,8 @@
 
 An MCP server that provides access to Marginalia Search, a search engine focused on discovering non-commercial and independent web content.
 
+<a href="https://glama.ai/mcp/servers/3weyx38n1h"><img width="380" height="200" src="https://glama.ai/mcp/servers/3weyx38n1h/badge" alt="Marginalia Server MCP server" /></a>
+
 ## Features
 
 - Search the web using Marginalia Search
