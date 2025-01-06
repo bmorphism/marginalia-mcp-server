@@ -41,7 +41,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
   return {
     tools: [
       {
-        name: "search",
+        name: "search-marginalia",
         description: "Search the web using Marginalia Search",
         inputSchema: {
           type: "object",
@@ -70,7 +70,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
 });
 
 server.setRequestHandler(CallToolRequestSchema, async (request: { params: { name: string; arguments?: any } }) => {
-  if (request.params.name !== "search") {
+  if (request.params.name !== "search-marginalia") {
     throw new McpError(ErrorCode.MethodNotFound, "Unknown tool");
   }
 
